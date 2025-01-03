@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatima's Portfolio</title>
+   
+  
+   
+    
+    <link href="style.css" rel="stylesheet">
+
+    
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="navbar-left">
+            <a href="index.html" class="navbar-brand">Fatima's Portfolio</a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#section_1">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section_about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section_skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section_projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section_contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section_registration">Registration</a></li>
+            </ul>
+        </div>
+       
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero d-flex justify-content-center align-items-center" id="section_1">
+        <div class="container text-center">
+
+            <h1 class="hero-title">Welcome to My Portfolio</h1>
+            <p id="mypg">I'm Fatima , a first semester student specializing in Information Technology, Basic Concepts of C++ and HTML/CSS.</p>
+            <div class="center-content">
+                <img src="fatima.jpg" class="profile-image" alt="Profile Picture">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="section_about" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p>I am an IT student passionate about technology and eager to learn new skills. I enjoy solving problems and exploring areas like programming and data analysis. My goal is to contribute to innovative projects and grow in the tech field.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="section_skills" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li>Basic Programming of C++</li>
+                <li>File Management</li>
+                <li>Basic HTML and CSS</li>
+                <li>Time Management and Organization</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="section_projects" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <ul>
+                <li><strong>Personal Portfolio Website:</strong> A website to showcase your skills, projects, and resume in a professional manner.</li>
+                <li><strong>Weather Forecast App: </strong> An app that fetches weather data from an API and displays the forecast based on the user's location.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="section_contact" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <p>Email: <a href="mailto:Fatima@example.com">Fatima@example.com</a></p>
+            <p>GitHub: <a href="https://github.com/Fatima">github.com/Fatima</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/Fatima">linkedin.com/in/Fatima</a></p>
+        </div>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="section_registration" class="section-padding">
+        <div class="container form-container">
+            <h2 class="section-title">Registration</h2>
+            <h3>Fatima ID: 12345</h3>
+            <form action="#" method="post">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="id" placeholder="Your ID" required>
+                    <label for="id">ID</label>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Register</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Return to Home Button -->
+    <button class="btn-return-home" onclick="location.href='#section_1'">Return to Home</button>
+
+    <!-- Footer -->
+    <footer>
+        <p>� 2024 Fatima's Portfolio. All rights reserved.</p>
+        <p>Contact: <a href="mailto:Fatima@example.com">Fatima@example.com</a> | GitHub: <a href="https://github.com/Fatima">GitHub</a> | LinkedIn: <a href="https://linkedin.com/in/Fatima">LinkedIn</a></p>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/bootstrap.min.js" defer></script>
+</body>
+</html>
